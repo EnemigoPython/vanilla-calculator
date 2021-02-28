@@ -1,0 +1,90 @@
+.border {
+    width: 15%;
+    border: 5px solid grey;
+    border-radius: 1.5rem;
+    background-color: lightslategray;
+    padding: 5px 30px;
+    margin: auto 28%;
+    text-align: center;
+    position: absolute;
+}
+
+.header {
+    padding: 10px;
+    text-align: center;
+}
+
+.calculator {
+    padding-top: 5px;
+    margin-bottom: 0.5rem;
+}
+
+.display {
+    background-color: white;
+    border-radius: 0.4rem;
+    border: 0.1rem solid black;
+    padding: 0.2rem;
+    margin: 0.5rem auto;
+    font-family: monospace;
+    text-align: end;
+    position: relative;
+}
+
+h3 {
+    font-weight: normal;
+}
+
+#subdisplay {
+    font-size: smaller;
+    margin: 0.1rem;
+    color: white;
+}
+
+#CE {
+    margin-block: 0.6rem;
+    margin-left: -5.5rem;
+    width: 20%;
+}
+
+button {
+    font-weight: bold;
+    font-size: small;
+    cursor: pointer;
+    width: 2.2rem;
+    height: 1.8rem;
+    margin: 4px;
+    border: 2px solid black;
+}
+
+#history {
+    border: 2px solid black;
+    position: absolute;
+    height: 250px;
+    width: 16%;
+    margin: 3% 50%;
+    padding: 4px;
+    background-color: silver;
+    display: inline-block;
+    overflow-y: scroll;
+}
+
+#history_header {
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.new_history {
+    margin: auto 5px;
+}
+
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  
+  sup {
+    top: -0.5em;
+  }
